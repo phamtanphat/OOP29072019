@@ -11,16 +11,13 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        show(1);
+        // Đối tượng : object , class
+        // khởi tạo class
+        Giangvien tanphat = new Giangvien();
+        tanphat.ten = "Pham Tấn Phát";
+        tanphat.diachi = "Nguyễn Lâm";
+        tanphat.hotroHocvien();
 
     }
-    // phuong thức: method , function
-    //1 : Phạm vi hoạt động : access modifier
-    //2 : Giá trị trả về
-    //3 : Tên
-    private void show(Integer number){
-        //autoboxing
-        //unboxing
-        Log.d("BBB",number + "");
-    }
+
 }
