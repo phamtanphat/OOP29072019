@@ -2,8 +2,11 @@ package khoapham.ptp.phamtanphat.oop29072019;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Context;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
+import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -13,11 +16,20 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         // Đối tượng : object , class
         // khởi tạo class
-        Giangvien tanphat = new Giangvien();
-        tanphat.ten = "Pham Tấn Phát";
-        tanphat.diachi = "Nguyễn Lâm";
-        tanphat.hotroHocvien();
+//        Giangvien tanphat = new Giangvien("Phạm Tấn Phát","Nguyễn Lâm");
+//        tanphat.setTen("AAA");
 
+//        -Nhanvien
+//              *Thuộc tính
+//                  +Ten : String
+//                  +Tuoi : Integer
+//                  +Calamviec : String
+//                *Phương thức
+//                    +setGiolamviec(Integer time)
+//                        ca sang : 8h - 17h (Mốc 24h tiếng)
+//                        ca tối : 18h - 7h   (Mốc 24h tiếng)
+//                        24<giolamviec < 0 : ca sáng
     }
+
 
 }
