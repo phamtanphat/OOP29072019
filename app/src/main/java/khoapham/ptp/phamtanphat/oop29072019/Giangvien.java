@@ -5,6 +5,7 @@ import java.util.regex.Pattern;
 
 public class Giangvien {
     // Thuộc tính
+    public static String giamdoc = "Khoa pham";
     public String ten;
     public String diachi;
 
