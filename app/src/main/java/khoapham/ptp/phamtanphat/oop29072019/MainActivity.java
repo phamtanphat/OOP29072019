@@ -35,7 +35,11 @@ public class MainActivity extends AppCompatActivity {
 
         // non - access modifier : final , static
 //        mangnumber[0] = 10;
-        Log.d("BBB",Giangvien.giamdoc);
+//        Log.d("BBB",Giangvien.giamdoc);
+
+        Trogiang trogiang1 = new Trogiang("Nguyen Van A","quan 10","Android");
+
+
     }
 
 
