@@ -10,6 +10,8 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
+    //immutable
+    final int[] mangnumber = {1,2,3,4,5};
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -29,6 +31,9 @@ public class MainActivity extends AppCompatActivity {
 //                        ca sang : 8h - 17h (Mốc 24h tiếng)
 //                        ca tối : 18h - 7h   (Mốc 24h tiếng)
 //                        24<giolamviec < 0 : ca sáng
+
+        // non - access modifier : final , static
+        mangnumber[0] = 10;
     }
 
 
