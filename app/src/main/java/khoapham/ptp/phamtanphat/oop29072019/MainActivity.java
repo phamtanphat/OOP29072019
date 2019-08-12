@@ -37,10 +37,20 @@ public class MainActivity extends AppCompatActivity {
 //        mangnumber[0] = 10;
 //        Log.d("BBB",Giangvien.giamdoc);
 
-        Trogiang trogiang1 = new Trogiang("Nguyen Van A","quan 10","Android");
+//        Trogiang trogiang1 = new Trogiang("Nguyen Van A","quan 10","Android");
 
-
+//        overide : "Phương thức ghi đè"
+//        overload :  "Phương thức nạp chồng"
+//        show("Nguyen Van A");
+        show(10);
     }
+    public void show(String message){
+        Log.d("BBB", message);
+    }
+    public void show(int value){
+        Log.d("BBB",value + "");
+    }
+
 
 
 }

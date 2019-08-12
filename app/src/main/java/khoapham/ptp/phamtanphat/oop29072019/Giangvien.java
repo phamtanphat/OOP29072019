@@ -9,6 +9,7 @@ public class Giangvien {
     public String ten;
     public String diachi;
 
+
     public Giangvien(String ten, String diachi) {
         this.ten = ten;
         this.diachi = diachi;
