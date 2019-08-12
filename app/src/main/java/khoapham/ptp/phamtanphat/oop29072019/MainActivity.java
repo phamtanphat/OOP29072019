@@ -11,7 +11,8 @@ import android.widget.Button;
 public class MainActivity extends AppCompatActivity {
 
     //immutable
-    final int[] mangnumber = {1,2,3,4,5};
+//    final int[] mangnumber = {1,2,3,4,5};
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -33,7 +34,8 @@ public class MainActivity extends AppCompatActivity {
 //                        24<giolamviec < 0 : ca sáng
 
         // non - access modifier : final , static
-        mangnumber[0] = 10;
+//        mangnumber[0] = 10;
+        Log.d("BBB",Giangvien.giamdoc);
     }
 
 
