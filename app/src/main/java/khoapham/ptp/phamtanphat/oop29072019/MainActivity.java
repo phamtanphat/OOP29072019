@@ -21,6 +21,21 @@ public class MainActivity extends AppCompatActivity {
         // 2: in so chan
         // 3 : in so chia 3 dư 1
         // 4 : in so chinh phương ( Căn bậc 2)
+        inso(new HandleValue() {
+            @Override
+            public boolean xulydieukien(int i) {
+                if (Math.sqrt(i) % 1 == 0) return true;
+                return false;
+            }
+        });
+    }
+    private void inso(HandleValue handleValue){
+        for (int i = 0 ; i <= 100 ; i++){
+            boolean dk = handleValue.xulydieukien(i);
+            if (dk){
+                Log.d("BBB",i + "");
+            }
+        }
     }
     private void insole(){
         for (int i = 0 ; i <= 100 ; i++){
