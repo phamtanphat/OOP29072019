@@ -2,19 +2,11 @@ package khoapham.ptp.phamtanphat.oop29072019;
 
 import android.util.Log;
 
-public class Phpdevelop implements Develop,Life {
-    @Override
-    public void moitruongcode() {
-        Log.d("BBB","Php");
-    }
+public class Phpdevelop  extends Manager{
 
     @Override
-    public void ngonngu() {
+    void deadline() {
 
-    }
-
-    @Override
-    public void kynghi() {
-        Log.d("BBB", "Nghỉ chủ nhật");
     }
 }
+
